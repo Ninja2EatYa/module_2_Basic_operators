@@ -1,6 +1,6 @@
 def get_pass(n):
     pass_list = ''
-    for a in range(1, n):
+    for a in range(1, n//2+1):
         for b in range(a+1, n):
             if n % (a + b) == 0:
                 pass_list += str(a) + str(b)
